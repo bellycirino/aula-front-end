@@ -6,30 +6,44 @@
     <title>Layouts flexiveis com flexbox</title>
     <style>
         section {
-            display: flex;
-            justify-content: space-evenly;
+            /*container flex*/
+            display: flex; ;
+            flex-direction: column;
+            justify-content: flex-end;/*aliamento da direção*/
+            align-items: stretch;/*ao contrario da direção*/
+            flex-wrap: wrap;
+
             width: 700px;
             height: 500px;
             margin-left: auto;
             margin-right: auto;
-            border: 3px dotted black;
+            border: 3px dotted violet;
          }     
 
          article {
             width: 100px;
             height: 100px;
             margin-bottom: 10px;
-            background-color: aqua;
-            border: 1px dashed grey;
+            background-color: blueviolet;
+            border: 1px dashed black;
             border-radius: 5px;
          }
     </style>    
 </head>     
 <body>
     <section>
-        <article></article>
-        <article></article>
-        <article></article>
+        <article>item 1</article>
+        <article>item 2</article>
+        <article>item 3</article>
+        <article>item 4</article>
+        <article>item 5</article>
+        <article>item 6</article>
+        <article>item 7</article>
+        <article>item 8</article>
+        <article>item 9</article>
+        <article>item 10</article>
+
+
     </section>
 </body>
 </html>        

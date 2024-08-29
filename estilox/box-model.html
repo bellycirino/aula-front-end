@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(223, 43, 226);
+            display: flex;
+            justify-content: space-around;
+        }
+        article{
+            width: 180px;
+            height: 180px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 15px;
+            border-radius: 7px;
+            border: 1px dashed rebeccapurple;
+            background-color: violet;
+            text-align: center;
+            box-shadow: 2px 2px 5px black;
+        } 
+
+        article img {
+            width: 40px;
+        } 
+        article h1 {
+            font-size: 18px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+        article p {
+            text-align: center;
+            font-family: cursive;
+            font-size: 12px;
+        }
+
+    </style>    
+</head>
+<body>
+    <article> <img src="./imagem/flash.png" alt="imagem de um raio">
+    <h1>Web Design</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </article>
+    <article> <img src="./imagem/flash.png" alt="imagem de um raio">
+        <h1>Graphics Design</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </article>
+    <article> <img src="./imagem/flash.png" alt="imagem de um raio">
+            <h1>UI/UX Design</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </article>
+
+</body>
+</html>
