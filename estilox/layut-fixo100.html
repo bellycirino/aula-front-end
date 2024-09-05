@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade layout 100%</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           /* border: 2px solid black;*/
+        }
+        html.body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-wrap: wrap; /*permitir a quebra da linha*/
+
+        }
+
+        header {
+            height: 20%;
+            width: 100%;
+            padding: 20px;
+            background-color: aqua;
+        }
+
+        main {
+            height: 80%;
+            width: 30%;
+            padding: 20px;
+            background-color: aquamarine; 
+        }
+
+        aside {  
+            height: 80%;
+            width: 70%;
+            padding: 20px;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<!-- flex container - mãe -->
+<body>
+    <!-- flex items - filhinhos -->
+    <header>cabeçalho</header>
+ <aside>
+      <!-- flex container -->
+ </aside>
+ <main>conteúdo</main>
+</body>
+
+</html>
